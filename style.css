@@ -1,0 +1,188 @@
+html {background-color: #FFFFFF;}
+body 
+  
+  @font-face {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+   src: url('fonts/HelveticaNeue-Bold.woff2') format('woff2');
+  margin: 10px;
+}
+
+
+
+
+ .site-header img {
+  width: 400px;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+  h1 {
+    font-size: 50px;
+    color: black;
+    transition: color 0.4s ease;
+  }
+  h1:hover {
+    color: red;
+  }
+
+  h2 {
+    font-size: 50px;
+    color: black;
+    transition: color 0.4s ease;
+  }
+  h2:hover {
+    color: red;
+  }
+
+
+  h3 {
+    font-size: 50px;
+    color: black;
+    transition: color 0.4s ease;
+  }
+   h3:hover {
+    color: red;
+  }
+
+  h4 {
+    font-size: 50px;
+    color: black;
+    transition: color 0.4s ease;
+  }
+ h4:hover {
+    color: red;
+  }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px; 
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.photo-item {
+  width: 100%;
+  height: auto; 
+  overflow: hidden;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain; 
+  display: block;
+}
+.lightbox {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+body.home-page {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.center-wrapper {
+  text-align: center;       
+}
+
+.site-header img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.float-left {
+  float: left;
+  margin-left:10px;
+  width: 600px;
+  height: auto;
+}
+
+.corner-wrapper {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;     
+  align-items: flex-start;  
+  z-index: 999;
+}
+
+.corner-image {
+  width: 500px;                
+  height: auto;
+}
+
+.corner-link {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  position: absolute;
+  font-size: 30px;
+  bottom: 30px;
+  left: -50px;            
+  color: black;
+  font-weight: bold;
+}
+
+.corner-link:hover {
+color:red;
+text-decoration: none;
+}
+
+.contact-container a h1 {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover h1 {
+  color: red;
+}
+
+
+
+
+
+
